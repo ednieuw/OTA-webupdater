@@ -10,12 +10,12 @@ If the Nano is used for the first time the router credentials are not stored in 
 Then a WIFI station will be started with the name: 
 
 > Edsoft ESP32-OTA
-![WIFInetworks](https://github.com/user-attachments/assets/41ae34ea-2e14-49c4-aee5-0fe9ddcd1ef2)
 
+<img src="https://github.com/user-attachments/assets/41ae34ea-2e14-49c4-aee5-0fe9ddcd1ef2" style="width:50%;">
 Open the WIFI settings on your device and connect to this WIFI station.
 
 If the start page is not started automatically open in the browser the URL 192.168.4.1
-![WIFIcaptive](https://github.com/user-attachments/assets/b647c691-c46f-41b0-868b-d0ef6619236d)
+<img src="https://github.com/user-attachments/assets/b647c691-c46f-41b0-868b-d0ef6619236d" style="width:50%;">
 
 Upload the sketch
 
@@ -29,11 +29,11 @@ Option 1:
 - The new software will start. 
 
 Option 2: 
-- Select the blue button "Enter credentials".
+- Select the blue button "Configure WIFI".
 - Choose the router from the list and enter the password. (The IP adres is printed in the serial monitor)
 - Restart the ESP32 and it will connect to WIFI.
 - Open the web page by entering in the URL: edsoft.local
 - Select and upload the bin file.
 -  Wait 10 sec and the root page of the application will start if available.
 
-### Be aware that you new installed software does not know these credentials and you will have to enter them again.
+### Be aware that your new installed software probably does not know these credentials and you will have to enter them again.
